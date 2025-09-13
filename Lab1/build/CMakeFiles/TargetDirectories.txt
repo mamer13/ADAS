@@ -1,0 +1,4 @@
+C:/Users/muham/Downloads/vscode/Lab1/build/CMakeFiles/test_lane_detection.dir
+C:/Users/muham/Downloads/vscode/Lab1/build/CMakeFiles/RUN_TESTS.dir
+C:/Users/muham/Downloads/vscode/Lab1/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/muham/Downloads/vscode/Lab1/build/CMakeFiles/ZERO_CHECK.dir

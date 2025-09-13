@@ -1,0 +1,18 @@
+Start testing: Sep 13 16:03 Mitteleuropäische Sommerzeit
+----------------------------------------------------------
+1/1 Testing: LaneDetectionTests
+1/1 Test: LaneDetectionTests
+Command: "C:/Users/muham/Downloads/vscode/Lab1/build/Debug/test_lane_detection.exe"
+Directory: C:/Users/muham/Downloads/vscode/Lab1/build
+"LaneDetectionTests" start time: Sep 13 16:03 Mitteleuropäische Sommerzeit
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   4.42 sec
+----------------------------------------------------------
+Test Failed.
+"LaneDetectionTests" end time: Sep 13 16:03 Mitteleuropäische Sommerzeit
+"LaneDetectionTests" time elapsed: 00:00:04
+----------------------------------------------------------
+
+End testing: Sep 13 16:03 Mitteleuropäische Sommerzeit

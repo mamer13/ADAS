@@ -1,0 +1,10 @@
+^C:\USERS\MUHAM\DOWNLOADS\VSCODE\LAB1\BUILD\CMAKEFILES\EA3A6B87409A233E5E767F58328EC315\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/muham/Downloads/vscode/Lab1 -BC:/Users/muham/Downloads/vscode/Lab1/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/muham/Downloads/vscode/Lab1/build/LaneDetectionTests.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

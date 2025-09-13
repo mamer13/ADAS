@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="16" failures="3" disabled="0" errors="0" time="0.363" timestamp="2025-09-13T16:13:27.443" name="AllTests">
+  <testsuite name="LaneDetectionTest" tests="16" failures="3" disabled="0" skipped="0" errors="0" time="0.361" timestamp="2025-09-13T16:13:27.444">
+    <testcase name="PreprocessImage" file="C:\Users\muham\Downloads\vscode\Lab1\test_lane_detection.cpp" line="48" status="run" result="completed" time="0.014" timestamp="2025-09-13T16:13:27.445" classname="LaneDetectionTest" />
+    <testcase name="PreprocessImageInvalidInput" file="C:\Users\muham\Downloads\vscode\Lab1\test_lane_detection.cpp" line="65" status="run" result="completed" time="0." timestamp="2025-09-13T16:13:27.460" classname="LaneDetectionTest" />
+    <testcase name="ExtractLinesBasic" file="C:\Users\muham\Downloads\vscode\Lab1\test_lane_detection.cpp" line="75" status="run" result="completed" time="0.016" timestamp="2025-09-13T16:13:27.465" classname="LaneDetectionTest">
+      <failure message="C:\Users\muham\Downloads\vscode\Lab1\test_lane_detection.cpp:85&#x0A;Expected equality of these values:&#x0A;  line.rows&#x0A;    Which is: 4&#x0A;  1&#x0A;" type=""><![CDATA[C:\Users\muham\Downloads\vscode\Lab1\test_lane_detection.cpp:85
+Expected equality of these values:
+  line.rows
+    Which is: 4
+  1
+]]></failure>
+      <failure message="C:\Users\muham\Downloads\vscode\Lab1\test_lane_detection.cpp:86&#x0A;Expected equality of these values:&#x0A;  line.cols&#x0A;    Which is: 1&#x0A;  4&#x0A;" type=""><![CDATA[C:\Users\muham\Downloads\vscode\Lab1\test_lane_detection.cpp:86
+Expected equality of these values:
+  line.cols
+    Which is: 1
+  4
+]]></failure>
+      <failure message="C:\Users\muham\Downloads\vscode\Lab1\test_lane_detection.cpp:85&#x0A;Expected equality of these values:&#x0A;  line.rows&#x0A;    Which is: 4&#x0A;  1&#x0A;" type=""><![CDATA[C:\Users\muham\Downloads\vscode\Lab1\test_lane_detection.cpp:85
+Expected equality of these values:
+  line.rows
+    Which is: 4
+  1
+]]></failure>
+      <failure message="C:\Users\muham\Downloads\vscode\Lab1\test_lane_detection.cpp:86&#x0A;Expected equality of these values:&#x0A;  line.cols&#x0A;    Which is: 1&#x0A;  4&#x0A;" type=""><![CDATA[C:\Users\muham\Downloads\vscode\Lab1\test_lane_detection.cpp:86
+Expected equality of these values:
+  line.cols
+    Which is: 1
+  4
+]]></failure>
+      <failure message="C:\Users\muham\Downloads\vscode\Lab1\test_lane_detection.cpp:85&#x0A;Expected equality of these values:&#x0A;  line.rows&#x0A;    Which is: 4&#x0A;  1&#x0A;" type=""><![CDATA[C:\Users\muham\Downloads\vscode\Lab1\test_lane_detection.cpp:85
+Expected equality of these values:
+  line.rows
+    Which is: 4
+  1
+]]></failure>
+      <failure message="C:\Users\muham\Downloads\vscode\Lab1\test_lane_detection.cpp:86&#x0A;Expected equality of these values:&#x0A;  line.cols&#x0A;    Which is: 1&#x0A;  4&#x0A;" type=""><![CDATA[C:\Users\muham\Downloads\vscode\Lab1\test_lane_detection.cpp:86
+Expected equality of these values:
+  line.cols
+    Which is: 1
+  4
+]]></failure>
+      <failure message="C:\Users\muham\Downloads\vscode\Lab1\test_lane_detection.cpp:85&#x0A;Expected equality of these values:&#x0A;  line.rows&#x0A;    Which is: 4&#x0A;  1&#x0A;" type=""><![CDATA[C:\Users\muham\Downloads\vscode\Lab1\test_lane_detection.cpp:85
+Expected equality of these values:
+  line.rows
+    Which is: 4
+  1
+]]></failure>
+      <failure message="C:\Users\muham\Downloads\vscode\Lab1\test_lane_detection.cpp:86&#x0A;Expected equality of these values:&#x0A;  line.cols&#x0A;    Which is: 1&#x0A;  4&#x0A;" type=""><![CDATA[C:\Users\muham\Downloads\vscode\Lab1\test_lane_detection.cpp:86
+Expected equality of these values:
+  line.cols
+    Which is: 1
+  4
+]]></failure>
+      <failure message="C:\Users\muham\Downloads\vscode\Lab1\test_lane_detection.cpp:85&#x0A;Expected equality of these values:&#x0A;  line.rows&#x0A;    Which is: 4&#x0A;  1&#x0A;" type=""><![CDATA[C:\Users\muham\Downloads\vscode\Lab1\test_lane_detection.cpp:85
+Expected equality of these values:
+  line.rows
+    Which is: 4
+  1
+]]></failure>
+      <failure message="C:\Users\muham\Downloads\vscode\Lab1\test_lane_detection.cpp:86&#x0A;Expected equality of these values:&#x0A;  line.cols&#x0A;    Which is: 1&#x0A;  4&#x0A;" type=""><![CDATA[C:\Users\muham\Downloads\vscode\Lab1\test_lane_detection.cpp:86
+Expected equality of these values:
+  line.cols
+    Which is: 1
+  4
+]]></failure>
+    </testcase>
+    <testcase name="ExtractLinesNoLines" file="C:\Users\muham\Downloads\vscode\Lab1\test_lane_detection.cpp" line="97" status="run" result="completed" time="0.006" timestamp="2025-09-13T16:13:27.484" classname="LaneDetectionTest" />
+    <testcase name="ExtractLinesParameters" file="C:\Users\muham\Downloads\vscode\Lab1\test_lane_detection.cpp" line="108" status="run" result="completed" time="0.021" timestamp="2025-09-13T16:13:27.491" classname="LaneDetectionTest" />
+    <testcase name="ExtractLinesEdgeCases" file="C:\Users\muham\Downloads\vscode\Lab1\test_lane_detection.cpp" line="118" status="run" result="completed" time="0.047" timestamp="2025-09-13T16:13:27.521" classname="LaneDetectionTest" />
+    <testcase name="DetectLanesIntegration" file="C:\Users\muham\Downloads\vscode\Lab1\test_lane_detection.cpp" line="135" status="run" result="completed" time="0.011" timestamp="2025-09-13T16:13:27.568" classname="LaneDetectionTest" />
+    <testcase name="LineFiltering" file="C:\Users\muham\Downloads\vscode\Lab1\test_lane_detection.cpp" line="155" status="run" result="completed" time="0.003" timestamp="2025-09-13T16:13:27.583" classname="LaneDetectionTest">
+      <failure message="C:\Users\muham\Downloads\vscode\Lab1\test_lane_detection.cpp:176&#x0A;Expected equality of these values:&#x0A;  filteredLines.size()&#x0A;    Which is: 0&#x0A;  2&#x0A;" type=""><![CDATA[C:\Users\muham\Downloads\vscode\Lab1\test_lane_detection.cpp:176
+Expected equality of these values:
+  filteredLines.size()
+    Which is: 0
+  2
+]]></failure>
+    </testcase>
+    <testcase name="LineClustering" file="C:\Users\muham\Downloads\vscode\Lab1\test_lane_detection.cpp" line="180" status="run" result="completed" time="0." timestamp="2025-09-13T16:13:27.589" classname="LaneDetectionTest" />
+    <testcase name="Performance" file="C:\Users\muham\Downloads\vscode\Lab1\test_lane_detection.cpp" line="201" status="run" result="completed" time="0.006" timestamp="2025-09-13T16:13:27.591" classname="LaneDetectionTest" />
+    <testcase name="MemoryUsage" file="C:\Users\muham\Downloads\vscode\Lab1\test_lane_detection.cpp" line="215" status="run" result="completed" time="0.005" timestamp="2025-09-13T16:13:27.601" classname="LaneDetectionTest" />
+    <testcase name="ErrorHandling" file="C:\Users\muham\Downloads\vscode\Lab1\test_lane_detection.cpp" line="231" status="run" result="completed" time="0.16" timestamp="2025-09-13T16:13:27.607" classname="LaneDetectionTest" />
+    <testcase name="LineValidation" file="C:\Users\muham\Downloads\vscode\Lab1\test_lane_detection.cpp" line="258" status="run" result="completed" time="0." timestamp="2025-09-13T16:13:27.768" classname="LaneDetectionTest" />
+    <testcase name="DifferentImageFormats" file="C:\Users\muham\Downloads\vscode\Lab1\test_lane_detection.cpp" line="276" status="run" result="completed" time="0.008" timestamp="2025-09-13T16:13:27.770" classname="LaneDetectionTest">
+      <failure message="unknown file&#x0A;C++ exception with description &quot;OpenCV(4.11.0) C:\Users\muham\Downloads\vscode\Lab1\vcpkg\buildtrees\opencv4\src\4.11.0-0357908e41.clean\modules\imgproc\src\canny.cpp:829: error: (-215:Assertion failed) _src.depth() == CV_8U in function &apos;cv::Canny&apos;&#x0A;&quot; thrown in the test body.&#x0A;" type=""><![CDATA[unknown file
+C++ exception with description "OpenCV(4.11.0) C:\Users\muham\Downloads\vscode\Lab1\vcpkg\buildtrees\opencv4\src\4.11.0-0357908e41.clean\modules\imgproc\src\canny.cpp:829: error: (-215:Assertion failed) _src.depth() == CV_8U in function 'cv::Canny'
+" thrown in the test body.
+]]></failure>
+    </testcase>
+    <testcase name="LineSorting" file="C:\Users\muham\Downloads\vscode\Lab1\test_lane_detection.cpp" line="293" status="run" result="completed" time="0.005" timestamp="2025-09-13T16:13:27.783" classname="LaneDetectionTest" />
+    <testcase name="BatchProcessing" file="C:\Users\muham\Downloads\vscode\Lab1\test_lane_detection.cpp" line="311" status="run" result="completed" time="0.015" timestamp="2025-09-13T16:13:27.789" classname="LaneDetectionTest" />
+  </testsuite>
+</testsuites>
